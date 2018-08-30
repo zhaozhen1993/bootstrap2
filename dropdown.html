@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<style type="text/css">
+		body{
+				background: #f5f6f7;
+			}
+			.carousel-indicators-min-1{
+				position: relative;
+			}
+			.carousel-indicators-min{
+				background: #1BB580;
+				position: absolute;
+				bottom: -20px;
+			}
+			.col-md-1-s1{
+				padding-left:0 ;
+				padding-right: 0;
+				padding-top: 10px;
+				background: #ffffff;
+			}
+			.col-md-1-s1 a{
+				text-align: center;
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+				border-radius: inherit !important;
+			}
+			.carousel_one{
+				margin-top: 10px;
+			}
+			.list-group-item-p{
+				-webkit-line-clamp: 1;
+				word-break: break-all;
+				overflow: hidden;
+				display: -webkit-box;
+				text-overflow: ellipsis;
+				-webkit-box-orient: vertical;
+			}
+			.list-group-item ul li{
+				list-style: none;
+				float: left;
+				margin-right: 10px;
+				line-height: 26px;
+			}
+			@media only screen and (min-width: 720px){
+				.min-height{
+					height: 108px;
+					
+				}
+				.min-height-2{
+					height: 90px;
+				}
+				.min-height-3{
+					height: 200px;
+				}
+			}
+			@media only screen and (max-width: 720px) {
+				.min-height{
+					margin-top: 5px;
+				}
+				.carousel-indicators-min-1{
+					margin-top: 10px;
+				}
+			}
+			.media-heading-limit{
+				-webkit-line-clamp: 2;
+				overflow: hidden;
+				word-break: break-all;
+				display: -webkit-box;
+				text-overflow: ellipsis;
+				-webkit-box-orient: vertical;
+			}
+			footer ul{
+				margin-top: 100px;
+				
+			}
+			footer{
+				background: #333333;
+			}
+			footer ul li{
+				list-style: none;
+				float: left;
+				margin-right: 10px;
+				color: #FFFFFF;
+				font-size: 16px;
+				
+			}
+			footer p,footer h5,footer h3{
+				color: #FFFFFF;
+			}
+			.baidu{
+				text-indent: 40px;
+			}
+			#oul li{
+				list-style: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div >
+			<nav class="navbar navbar-default">
+				<div class="container" style="position: relative;">
+					<div class="navbar-header navbar-left">
+						<button class="navbar-toggle" data-toggle = "collapse" data-target = "#navbar-collapse-m">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>						
+					    </button>
+					    <a class="navbar-brand" href="#">菜鸟</a>
+					</div>
+					<div class="collapse navbar-collapse navbar-left" id="navbar-collapse-m" >
+						<ul class="nav navbar-nav">
+							<li class="btn-default"><a >Html</a></li>
+							<li class=" btn-default"><a>Css</a></li>
+							<li class=" btn-default"><a>Javascript</a></li>
+							<li class="dropdown btn-default">
+								<a data-toggle = "dropdown">bootstrap <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li class="text-center active">nav</li>
+									<li class="text-center">nav</li>
+									<li class="text-center">nav</li>
+								</ul>
+							</li>
+						    <li class=" btn-default"><a> JQUERY</a></li>
+						    <li class=" btn-default"><a> SQL</a></li>
+						    <li class=" btn-default"><a> MYSQL</a></li>
+						    					   
+						</ul>
+					</div>
+					<div class="navbar-left " style="margin-top: 10px;">
+						<input  type="text" placeholder="  用户名..." />
+						<input  type="password" placeholder="  密码..." />
+						<button class="btn btn-primary">登录</button>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="container container-bg">
+			<div class="row">
+				<div class="col-md-1 col-md-1-s1 col-xs-1">
+					<nav class="navbar">
+						<div class="nav nav-pills nav-stacked">
+							<li class="btn-default active "><a>推荐</a></li>
+						    <li class="btn-default"><a>最新文章</a></li>
+						    <li class="btn-default"><a>关注</a></li>
+						    <li class="btn-default"><a>资讯</a></li>
+						    <li class="btn-default"><a>人工智能</a></li>
+						    <li class="btn-default"><a>云计算/大数据</a></li>
+						    <li class="btn-default"><a>区块链</a></li>
+						    <li class="btn-default"><a>数据库</a></li>
+						    <li class="btn-default"><a>程序人生</a></li>
+						    <li class="btn-default"><a>游戏开发</a></li>
+						    <li class="btn-default"><a>研发管理</a></li>
+						    <li class="btn-default"><a>前端</a></li>
+						    <li class="btn-default"><a>移动开发</a></li>
+						    <li class="btn-default"><a>最新文章</a></li>
+						    <li class="btn-default"><a>物联网</a></li>
+						    <li class="btn-default"><a>运维</a></li>
+						    <li class="btn-default"><a>计算机基础</a></li>
+						    <li class="btn-default"><a>编程语言</a></li>
+						    <li class="btn-default"><a>架构</a></li>
+						    <li class="btn-default"><a>音视频开发</a></li>
+						    <li class="btn-default"><a>安全</a></li>
+						    <li class="btn-default"><a>其他</a></li>
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-11 col-xs-11">
+					<div class="row">
+						<div class="col-md-9 col-xs-9">
+							<img src="img/csdn/bg-1.png" style="width: 100%;"/>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<img  src="img/csdn/bg-2.png" class="img-responsive min-height-2" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-9 col-xs-9">
+							<div class="row carousel_one">
+								<div class="col-md-8 col-xs-8"  >
+									<div class="carousel slide" id="carousel_one" data-ride = "carousel" data-interval = "2000">
+										<ol class="carousel-indicators">
+											<li class="active" data-slide-to = "0" data-target = "#carousel_one"></li>
+											<li data-slide-to = "1" data-target = "#carousel_one"></li>
+											<li data-slide-to = "2" data-target = "#carousel_one"></li>
+											<li data-slide-to = "3" data-target = "#carousel_one"></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="item active">
+												<img src="img/csdn/ad-1.png" class="img-responsive"/>
+											</div>
+											<div class="item ">
+												<img src="img/csdn/ad-1.png" class="img-responsive"/>
+											</div>
+											<div class="item ">
+												<img src="img/csdn/ad-1.png" class="img-responsive"/>
+											</div>
+											<div class="item ">
+												<img src="img/csdn/ad-1.png" class="img-responsive"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-xs-4">
+									<div class="min-height" ">
+										<a href="#"><img src="img/csdn/ad-2.png" class="img-responsive"/></a>
+									</div>
+									<div class="min-height" ">
+										<a href="#"><img src="img/csdn/ad-2.png" class="img-responsive"/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-3" style="margin-top: 10px;">
+							<div class="carousel slide carousel-indicators-min-1" id="carousel_two" data-ride = "carousel" data-interval = "2000">
+								<ol class="carousel-indicators carousel-indicators-min hidden-xs">
+									<li class="active" data-slide-to = "0" data-target = "#carousel_two"></li>
+									<li data-slide-to = "1" data-target = "#carousel_two"></li>
+									<li data-slide-to = "2" data-target = "#carousel_two"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="item active min-height-3" ">
+										<img src="img/csdn/ad-3.png" class="img-responsive" />
+									</div>
+									<div class="item min-height-3" >
+										<img src="img/csdn/ad-3.png" class="img-responsive" />
+									</div>
+									<div class="item min-height-3" >
+										<img src="img/csdn/ad-3.png" class="img-responsive" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-9 clo-xs-9">
+							<div class="list-group">
+								<ul style="padding-left: 0;" id="oul">
+									<!--<li class="list-group-item " id="list-group-item-1">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">61</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">62</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">63</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">64</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">65</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">66</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">67</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">68</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">69</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">600</a> 评论</li>
+									    </ul>
+									</li>
+									<li class="list-group-item">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">6</a> 评论</li>
+									    </ul>
+									</li>-->
+								</ul>
+							</div>
+								
+							
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<ul class="media-list">
+								<h4>今日推荐</h4>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+								<li class="media">
+									<a class="pull-left" href="#"><img src="img/csdn/icon-2.png" class="media-object" /></a>
+								    <div class="media-body">
+								    	<div class="media-heading media-heading-limit">两年洗钱80亿，交易所是黑客洗钱幕后推手还是受害者</div>
+								        
+								    </div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<h3>联系我们</h3>
+						<div class="media">
+							<img src="img/csdn/icon-3.png" class="media-object img-thumbnail pull-left" style="margin-right: 10px;"/>
+							<div class="media-body">
+								<div class="media-heading">
+									<h5>请扫描二维码联系客服</h5>
+								</div>
+								<p><a href="#">webmaster@csdn.net</a></p>
+								<p>400-660-0108</p>
+								<a>QQ客服 </a>
+								<a>客服论坛</a>
+							</div>
+						</div>
+					</div>
+				    <div class="col-md-8 col-xs-12">
+				    	<ul>
+				    		<li>关于</li>
+				    		<li>招聘</li>
+				    		<li>广告服务</li>
+				    		<li>网站地图</li>
+				    	</ul>
+				    	<p class="col-xs-12">©2018 CSDN版权所有 京ICP证09002463号</p>
+				    	<p class="baidu col-xs-12">百度提供支持</p>
+				    </div>
+				</div>
+			</div>
+		</footer>
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			window.onload=function(){
+				var oclose=document.getElementsByClassName('close');
+				var oli=document.getElementsByClassName('list-group-item');
+				var ul=document.getElementById('oul');
+				var num=60;
+				for(var i=0;i<11;i++){
+					var li=document.createElement('li');
+					num+=10;
+					li.innerHTML=`<li class="list-group-item" data-index="${i}">
+										<button class="close">&times;</button>
+										<h4>AI应用开发实战系列之四 - 定制化视觉服务的使用</h4>
+										<p class="list-group-item-p">AI应用开发实战系列之四 - 定制化视觉服务的使用 本篇教程的目标是学会使用定制化视觉服务，并能在UWP应用中集成定</p>
+									    <ul class="clearfix"style="padding-left: 0;display: inline-block;">
+									    	<li><img src="img/csdn/icon-1.png"/></li>
+									    	<li><a href="#">SoftwareTeacher</a></li>
+									    	<li>两天前</li>
+									    	<li><a href="#">人工智能</a></li>
+									    </ul>
+									    <ul class="clearfix" style="float: right;">
+									    	<li><a href="#">620</a> 阅读</li>
+									    	<li><a href="#">${num}</a> 评论</li>
+									    </ul>
+									</li>`
+					ul.appendChild(li);		
+				}
+				
+				for(var i=0;i<oli.length;i++){
+					oclose[i].index=i;
+					oclose[i].onclick=function(){
+						console.log(this.parentNode)
+						this.parentNode.remove();
+//						oli[oli[this.index].dataset.index].remove();
+						
+					}
+				}
+			}
+		</script>
+	</body>
+</html>

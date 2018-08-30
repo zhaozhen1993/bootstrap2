@@ -1,0 +1,266 @@
+li{list-style: none;}
+*{margin: 0;padding: 0;}
+.navbar-default{
+	border: none;
+	background: rgba(255,255,255,0.9);
+}
+nav{
+	z-index: 11;
+}
+@media only screen  and (max-width: 640px) {
+	.navbar-default{
+		height: 20px;
+	}
+	.navbar-brand{
+		height: 20px;
+		padding: 10px 20px !important;
+	}
+	.navbar-brand img{
+		height: 30px;
+		
+	}
+	#navbar_collapse_1{
+		z-index: 222;
+		background: #C0C0C0;
+		margin-top: 0 !important;
+		text-align: center;
+	}
+	.left span img,.right span img{
+	padding-top: 60px !important;
+	
+}
+}
+.navbar-brand{
+	height: 100px;
+	padding: 25px 15px;
+}
+.nav-head li a{
+	line-height: 70px;
+	font-size: 18px;
+	color: #000000 !important;
+}
+.nav-head.active{
+	color: red !important;
+	background: none !important;
+}
+.nav-head li:hover a{
+	color: red !important;
+}
+/*lunbo*/
+.position_car{
+	position: relative;
+	margin: 0 auto;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+.position_car .bottom_a{
+	
+}
+.left span img,.right span img{
+	padding-top: 400px;
+	
+}
+.carousel-indicators li{
+	width: 16px !important;
+	height: 16px !important;
+	background: #CCCCCC !important;
+}
+.carousel-indicators .active{
+	background: #FFFFFF !important;
+}
+/*about us*/
+.container-bg{
+	background: #f0f0f0;
+	position: relative;
+}
+.cont_title h3{
+	font-size: 36px !important;
+	padding-top:60px ;
+	padding-bottom: 110px;
+};
+.lunbo{
+	width: 1920px;
+	
+	overflow: hidden;
+	
+}
+.lunbo_2{
+	overflow: hidden;
+	width: auto;
+	height: 300px;
+	position: relative;
+}
+.lunbo_2 .w_style{
+	width: 4000px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+}
+
+.lunbo .col-lg-2{
+	float: left;
+	width: 300px;
+	padding-left: 0;
+	padding-right:0;
+	margin: 0 8px;
+	background: #FFFFFF;
+}
+.lunbo .text-content h3{
+	font-size: 18px;
+	padding: 5px 20px;
+}
+.lunbo_2 a:hover{
+	color: #ffffff;
+}
+.lunbo .left_2{
+	left: 15px;
+}
+.lunbo .right_2{
+	right: 15px;
+}
+.lunbo .left_2,.lunbo .right_2{
+	position: absolute;
+	top: 300px;
+	
+}
+.container-bg .cet{
+	text-align: center;
+	margin-top:100px;
+	margin-bottom: 100px;
+}
+.container-bg  .box{
+	display: inline-block;
+	width: 130px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	background: #cf0f32;
+	color: #FFFFFF;
+	
+}
+/*about*/
+.about{
+	padding-top: 20px;
+}
+.about .about_title{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.about .about_title h3{
+	font-size: 36px !important;
+	
+}
+.about .container p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+}
+.about .container span:nth-child(1){
+	color: red;
+}
+
+.about_radius{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #eee;
+	border-radius: 50%;
+}
+.about_radius {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.about_radius span{
+	display: block;
+	font-size: 36px;
+}
+.about_radius span:nth-child(1){
+	color: #cf0f32;
+	margin-top: 50px;
+}
+/*belive*/
+.belive{
+	padding-bottom: 50px;
+	background: #f0f0f0;
+}
+.belive .text-center{
+	font-size: 36px;
+	padding: 45px 0;
+}
+.belive .space{
+	height: 40px;
+}
+.belive .col-md-3{
+	transition: .6s;
+	
+}
+.belive .col-md-3 img{
+	margin: 0 auto;
+}
+.belive .col-md-3:hover{
+	box-shadow: 0px 0px 5px #000000;
+	
+}
+/*work*/
+.work .work_title h3{
+	font-size: 36px;
+	padding-top: 16px;
+	margin-bottom: 26px;
+}
+.work .work_text{
+	padding-bottom: 40px;
+}
+.work .work_text p{
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+.work .work_text span:nth-child(1){
+	color: #cf0f32;
+}
+.work .row .col-md-2 img{
+	margin: 0 auto;
+}
+.work .row .col-md-2 {
+	
+	text-align: center;
+}
+@media only screen  and (min-width: 640px) {
+	.work .list li{
+	    float: left;
+	    width: 20%;
+    }
+}
+.work .list{
+	margin-top: 60px;
+}
+
+.work .list li a{
+	display: block;
+	font-size: 16px;
+	color: #535557;
+	padding: 5px 30px;
+}
+.work .col-md-2{
+	transition: .5s;
+}
+.work .col-md-2:hover{
+	transform: scale(1.1);
+}
+footer{
+	margin-top: 70px;
+	background: #bababa;
+}
+footer .logo{
+	padding-top: 70px;
+	padding-bottom: 35px;
+	text-align: center;
+}
+footer p{
+	padding-bottom: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+}
